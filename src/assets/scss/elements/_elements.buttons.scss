@@ -1,0 +1,18 @@
+$o-btn: ".o-btn";
+
+#{$o-btn} {
+    @include btn;
+    &:hover {
+        background-color: #fff;
+        color: $blue;
+        border: 1px solid $blue;
+    }
+    &--orange {
+        background-color: $orange;
+        &:hover {
+            background-color: #fff;
+            color: $orange;
+            border-color: $orange;
+        }
+    }    
+}
